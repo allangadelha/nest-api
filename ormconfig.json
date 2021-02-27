@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "url": "mongodb://sz4:sz4@localhost:27010/admin",
+  "useNewUrlParser": true,
+  "useUnifiedTopology": true,
+  "database": "gensweb",
+  "logging": true, 
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
